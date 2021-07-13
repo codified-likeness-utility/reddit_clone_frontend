@@ -28,7 +28,7 @@ export const NavBar: React.FC<NavBarProps> = ({}) => {
         body =
         <Flex>
             <Box mr={2}>{data.me.username}</Box>
-            <Button variant='link'>logout</Button>
+            <Button color='whiteAlpha.800' variant='link'>logout</Button>
         </Flex>;
 	}
 
